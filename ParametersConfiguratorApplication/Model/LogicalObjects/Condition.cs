@@ -145,9 +145,7 @@ namespace ParametersConfiguratorApplication.Model
                                 returnedValue = FirstParameter.LessOrEqual(_secondParameterValue);
                                 break;
                             case TypeOfClause.IsSubset:
-                                #region IsSubset
                                 throw new InapplicableConditionException("Warunek nie ma zastosowania (IsSubset dla Value");
-                            #endregion
                             case TypeOfClause.EmptyIntersection:
                                 #region EmptyIntersection
                                 throw new InapplicableConditionException("Warunek nie ma zastosowania (EmptyIntersection dla Value");
