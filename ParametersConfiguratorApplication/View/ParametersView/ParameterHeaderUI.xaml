@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="ParametersConfiguratorApplication.View.ParameterHeaderUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+             xmlns:local="clr-namespace:ParametersConfiguratorApplication.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="400">
+    <UserControl.Resources>
+        <local:ParameterUsageToBrush x:Key="parameterToBrush"/>
+        <BitmapImage x:Key="questionMarkImage" UriSource="D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\View\Icons\Question_32xLG.png"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="380"/>
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Margin="2" TextWrapping="Wrap" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="16" Foreground="{Binding Path=IsUsed, Mode=OneWay, Converter={StaticResource parameterToBrush}}">
+             <Bold><Run Text="{Binding Path=Label, Mode=OneTime}" /></Bold>
+        </TextBlock>
+        <Image Source="{StaticResource questionMarkImage}" Height="16" Grid.Column="1"  Grid.Row="0" Margin="2">
+            <Image.ToolTip>
+                <TextBlock TextWrapping="Wrap">
+                     <Run Text="{Binding Description, Mode=OneTime}" />
+                </TextBlock>
+            </Image.ToolTip>
+        </Image>
+        
+    </Grid>
+</UserControl>

@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="ParametersConfiguratorApplication.View.ParameterErrorStackUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+             xmlns:local="clr-namespace:ParametersConfiguratorApplication.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="350">
+    <UserControl.Resources>
+        <local:BooleanToVisibility x:Key="boolToVisibility"/>
+        <local:VisibilityOfDescription x:Key="visibilityOfDescription" />
+    </UserControl.Resources>
+    <Grid Visibility="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=1}, Path=DataContext.IsValid, Mode=OneWay, 
+                            Converter={StaticResource boolToVisibility}, ConverterParameter=reverse}">
+        <ScrollViewer Margin="3" Height="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=1}, Path=DataContext.Height, Mode=OneWay}"> 
+            <TextBlock TextWrapping="Wrap" Width="340">
+                <Bold><Run Text="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=1}, Path=DataContext.ErrorsStack, Mode=OneWay}" /></Bold>
+            </TextBlock>
+        </ScrollViewer>
+        
+    </Grid>
+</UserControl>

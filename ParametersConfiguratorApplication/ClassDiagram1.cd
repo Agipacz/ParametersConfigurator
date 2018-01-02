@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ParametersConfiguratorApplication.Model.ParametersConfigurator" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABUQAAAAIAAQAAAAAAAAAAAAAEAAAAAgMEBAAAADAA=</HashCode>
+      <FileName>Model\ParametersConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.Section" Collapsed="true">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEABAAAIAAAAAAAAAQCAAEAIAAAQAAAAA=</HashCode>
+      <FileName>Model\Section.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.BooleanParameter" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAQEAAIhQAASIAAgAAAAAEAAAEIAAAAQAAAgACE=</HashCode>
+      <FileName>Model\Parameters\BooleanParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="13.5" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.Parameter" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RCIEJQQNFAohUIgWIBgJAAQAAMAQAElAIECQKQIgAiU=</HashCode>
+      <FileName>Model\Parameters\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.ParameterValueClass&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Parameters\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.TextParameter" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAQEAAYhQAASIAAgAAAAAEAAAEIAAAAQAAAgECE=</HashCode>
+      <FileName>Model\Parameters\TextParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.IntegerParameter" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAQEAAIhQAgSIAAgAAAAAEAAgEIAAAAwACAgACE=</HashCode>
+      <FileName>Model\Parameters\IntegerParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.FloatParameter" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAQEAAIhQAgSIAAgAAAAAEAAgEIAAAAwACAgACE=</HashCode>
+      <FileName>Model\Parameters\FloatParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.EnumerationParameter" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAABAQEAAIhQAASoAAgAAAAAFAAAEIAAAAQAAAgACE=</HashCode>
+      <FileName>Model\Parameters\EnumerationParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.SelectableItem" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABIAEAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Parameters\EnumerationParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.DateTimeParameter" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAQEAAIhQAgWIAAgAAAAAEAAgEIAAAAwACAgACE=</HashCode>
+      <FileName>Model\Parameters\DateTimeParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParametersConfiguratorApplication.Model.DateParameter" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAQEAAIhQAgWIAAgAAAAAEAAgEIAAAAwACAgACE=</HashCode>
+      <FileName>Model\Parameters\DateParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ParametersConfiguratorApplication.Model.SignsOfSet" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Model\ParametersConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="ParametersConfiguratorApplication.Model.TypeOfParameter" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAgQDAAAACAAgAAA=</HashCode>
+      <FileName>Model\Parameters\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ParametersConfiguratorApplication.Model.ParameterUsageType" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Model\Parameters\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,20 @@
+﻿ParametersConfiguratorApplication
+
+
+winexe
+C#
+.cs
+D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Release\
+ParametersConfiguratorApplication
+none
+false
+TRACE
+D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\App.xaml
+1565784202
+
+54130813470
+21-553417675
+MainWindow.xaml;View\ParametersView\ParameterControlPanelUI.xaml;View\ParametersView\ParameterErrorStackUI.xaml;View\ParametersView\BooleanParameterUI.xaml;View\ParametersView\DateTimeParameterUI.xaml;View\ParametersView\EnumerationParameterUI.xaml;View\ParametersView\FloatParameterUI.xaml;View\ParametersView\IntegerParameterUI.xaml;View\IntroductionView.xaml;View\MainView.xaml;View\ParametersView\ParameterHeaderUI.xaml;View\ParametersView.xaml;View\ParametersView\ParameterValuesButtonsUI.xaml;View\SummaryView.xaml;View\ParametersView\TextParameterUI.xaml;
+
+False
+

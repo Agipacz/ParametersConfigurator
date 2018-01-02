@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ParametersConfiguratorApplication.View.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ParametersConfiguratorApplication.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            
+        </Grid.RowDefinitions>
+        <local:OpenFileDialogBox x:Name="openFileDialogBox" Caption="Otwórz plik XML" 
+                                 Filter="Pliki XML (*.xml)|*.xml|Wszystkie pliki (*.*)|*.*" FilterIndex="0" Margin="0, 1, 0, -1"
+                                 CommandFileOk="{Binding SetParametersConfiguratorModelCommand}"
+                                 CommandAfter="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=DataContext.ChangeApplicationTitleCommand}" 
+                                 CommandParameter="{Binding ParametersConfiguratorTitle, Mode=OneWay}"/>
+        <Button Grid.Row="0" Margin="5" Command="{Binding Show, ElementName=openFileDialogBox}">
+            <Bold>Wybierz plik XML</Bold>
+        </Button>
+        <Button Grid.Row="1" Margin="5" Command="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=DataContext.StartParametersConfiguratorCommand}" CommandParameter="true">
+            <Bold>Rozpocznij</Bold>
+        </Button>
+        <ScrollViewer Margin="10" Grid.Row="2">
+            <TextBlock FontWeight="Bold" Margin="1" TextWrapping="Wrap">
+            <Run Text="{Binding ValidationInformation}" />
+            </TextBlock>
+        </ScrollViewer>
+
+       
+    </Grid>
+</UserControl>

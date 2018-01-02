@@ -1,0 +1,38 @@
+﻿<Window x:Class="ParametersConfiguratorApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParametersConfiguratorApplication"
+        xmlns:viewModel="clr-namespace:ParametersConfiguratorApplication.ViewModel"
+        xmlns:view="clr-namespace:ParametersConfiguratorApplication.View"
+        mc:Ignorable="d"
+        Title="{Binding ApplicationTitle, Mode=OneWay}" Height="600" Width="900" MinWidth="300" MinHeight="600">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModel:MainViewModel}">
+            <view:MainView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:IntroductionViewModel}">
+            <view:IntroductionView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:ParametersViewModel}">
+            <view:ParametersView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:SummaryViewModel}">
+            <view:SummaryView />
+        </DataTemplate>
+    </Window.Resources>
+    <Window.DataContext>
+        <viewModel:ApplicationViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <ContentControl x:Name="MainWindowContentControl" Content="{Binding CurrentPageViewModel}" />
+        <StatusBar Grid.Row="1">
+            <Run Text="{Binding Status, Mode=OneWay}" />
+        </StatusBar>
+    </Grid>
+</Window>

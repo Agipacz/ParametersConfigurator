@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ParametersConfiguratorApplication.View.ParameterValuesButtonsUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+             xmlns:local="clr-namespace:ParametersConfiguratorApplication.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="50">
+    <UserControl.Resources>
+        <BitmapImage x:Key="exclamationMark" UriSource="D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\View\Icons\Exclamation_32xLG.png"/>
+        <local:RemoveParameterValueConverter x:Key="removeConverter"/>
+        <local:BooleanToVisibility x:Key="boolToVisibility"/>
+        <local:VisibilityOfDescription x:Key="visibilityOfDescription" />
+    </UserControl.Resources>
+    <StackPanel Margin="3" Orientation="Vertical">
+        <StackPanel Orientation="Vertical" 
+                Visibility="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=2}, Path=DataContext.IsParameterValuesButtonsVisibleProperty, Converter={StaticResource boolToVisibility}}">
+            <Button Content="  +  " Command="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=3}, Path=DataContext.AddParameterValueCommand, diag:PresentationTraceSources.TraceLevel=High}"
+                CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=2}, Path=DataContext.Self}">
+                <Button.ToolTip>Dodaj wartość</Button.ToolTip>
+            </Button>
+            <Button Content="  -  " Command="{Binding RelativeSource={RelativeSource AncestorType=UserControl, AncestorLevel=3}, Path=DataContext.RemoveParameterValueCommand}">
+                <Button.ToolTip>Usuń zaznaczoną wartość</Button.ToolTip>
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource removeConverter}">
+                        <Binding RelativeSource="{RelativeSource AncestorType=UserControl, AncestorLevel=2}" Path="DataContext.Self"/>
+                        <Binding RelativeSource="{RelativeSource AncestorType=UserControl, AncestorLevel=2}" Path="DataContext.SelectedItems"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
+        </StackPanel>
+    </StackPanel>
+    
+</UserControl>
