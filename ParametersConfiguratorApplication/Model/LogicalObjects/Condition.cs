@@ -147,13 +147,9 @@ namespace ParametersConfiguratorApplication.Model
                             case TypeOfClause.IsSubset:
                                 throw new InapplicableConditionException("Warunek nie ma zastosowania (IsSubset dla Value");
                             case TypeOfClause.EmptyIntersection:
-                                #region EmptyIntersection
                                 throw new InapplicableConditionException("Warunek nie ma zastosowania (EmptyIntersection dla Value");
-                            #endregion
                             case TypeOfClause.NotEmptyIntersection:
-                                #region NotEmptyIntersection
                                 throw new InapplicableConditionException("Warunek nie ma zastosowania (NotEmptyIntersection dla Value");
-                            #endregion
                             case TypeOfClause.RegEx:
                                 returnedValue = FirstParameter.RegEx(_secondParameterValue);
                                 break;
