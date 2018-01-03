@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>No introduction example</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>textParameter2</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:RegularExpression>[a-zA-Z0-9]{3}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateParameter>
+					<pc:Name>startDateNumber</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter2</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>textParameter23</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:RegularExpression>[a-zA-Z0-9]{3}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber3</pc:Name>
+					<pc:Label>Liczba całkowita5</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber4</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber3</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter6</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber8</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter9</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>textParameter29</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:RegularExpression>[a-zA-Z0-9]{3}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber1</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber2</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber36</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter4</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber5</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter7</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>textParameter28</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:RegularExpression>[a-zA-Z0-9]{3}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber9</pc:Name>
+					<pc:Label>Liczba całkowita9</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber76</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber445</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter45</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber87</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter78</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>textParameter782</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:RegularExpression>[a-zA-Z0-9]{3}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>enumParameter</pc:FirstParameterName>
+				<pc:Clause>==</pc:Clause>
+				<pc:Value>A</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber3756</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber7657</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber47</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter456</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber978</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter234</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>textParameter2234</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:RegularExpression>[a-zA-Z0-9]{3}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber234</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber234</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber234</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter234</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber234</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>enumParameter</pc:FirstParameterName>
+				<pc:Clause>!=</pc:Clause>
+				<pc:Value>A</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+	<pc:CorrectnessConditions>
+		<pc:ConditionalSection logicalConnector="OR">
+			<pc:ConditionalSection logicalConnector="AND">
+				<pc:Condition>
+					<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+				</pc:Condition>
+			</pc:ConditionalSection>
+			<pc:Condition>
+				<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+				<pc:Clause>LessThan</pc:Clause>
+				<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:ConditionalSection logicalConnector="OR">
+			<pc:ConditionalSection logicalConnector="AND">
+				<pc:Condition>
+					<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+				</pc:Condition>
+			</pc:ConditionalSection>
+			<pc:Condition>
+				<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+				<pc:Clause>LessThan</pc:Clause>
+				<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:ConditionalSection logicalConnector="AND">
+			<pc:Condition>
+				<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+				<pc:Clause>LessThan</pc:Clause>
+				<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:Condition>
+			<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+			<pc:Clause>LessThan</pc:Clause>
+			<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+		</pc:Condition>
+		<pc:Condition>
+			<pc:FirstParameterName>floatNumber</pc:FirstParameterName>
+			<pc:Clause>GreaterThan</pc:Clause>
+			<pc:SecondParameterName>intNumber</pc:SecondParameterName>
+		</pc:Condition>
+		
+	</pc:CorrectnessConditions>
+	<pc:ParametersConfiguratorSummary>
+Summary
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	</pc:ParametersConfiguratorSummary>
+</pc:ParametersConfigurator>

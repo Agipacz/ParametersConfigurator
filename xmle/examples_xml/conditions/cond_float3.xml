@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example Float 3</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:FloatParameter maxNumberOfValues="3">
+					<pc:Name>float3</pc:Name>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float3_IsSubset</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float3</pc:FirstParameterName>
+					<pc:Clause>IsSubset</pc:Clause>
+					<pc:Set>
+						<pc:Item>10.5</pc:Item>
+						<pc:Item>11,7</pc:Item>
+						<pc:Item>9</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float3_EmptyIntersection</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float3</pc:FirstParameterName>
+					<pc:Clause>EmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>10.5</pc:Item>
+						<pc:Item>11,7</pc:Item>
+						<pc:Item>26</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float3_NotEmptyIntersection</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float3</pc:FirstParameterName>
+					<pc:Clause>NotEmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>10.5</pc:Item>
+						<pc:Item>11,7</pc:Item>
+						<pc:Item>33</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

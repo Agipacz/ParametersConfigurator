@@ -14,7 +14,7 @@ namespace ParametersConfiguratorApplication.Model
     public static class XMLFile
     {
         private static XNamespace XMLSchemaNS = XNamespace.Get(Properties.Settings.Default["XMLSchemaNS"].ToString());
-        private static string XMLSchemaPath = Properties.Settings.Default["XMLSchemaPath"].ToString();
+        private static string XMLSchema = Properties.Resources.parametersConfigurator;
         private static SignsOfSet globalSignsOfSet = new SignsOfSet
         {
             _beginningSign = "[",
@@ -23,8 +23,8 @@ namespace ParametersConfiguratorApplication.Model
         };
         public static XDocument ValidateXMLFile(string filePath)
         {
-            XmlTextReader reader = new XmlTextReader(XMLSchemaPath);
-            XmlSchema schema = XmlSchema.Read(reader, null);
+            StringReader reader = new StringReader(XMLSchema);
+            XmlSchema schema = XmlSchema. Read(reader, null);
 
             XmlSchemaSet schemas = new XmlSchemaSet();
             schemas.Add(schema);

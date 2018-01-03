@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example Date 3</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateParameter maxNumberOfValues="4">
+					<pc:Name>date1</pc:Name>
+				</pc:DateParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>date1_IsSubset</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>date1</pc:FirstParameterName>
+					<pc:Clause>IsSubset</pc:Clause>
+					<pc:Set>
+						<pc:Item>2017-11-25</pc:Item>
+						<pc:Item>2017-11-24</pc:Item>
+						<pc:Item>2017-11-23</pc:Item>
+						<pc:Item>2017-11-31</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>date1_EmptyIntersection</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>date1</pc:FirstParameterName>
+					<pc:Clause>EmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>2017-11-25</pc:Item>
+						<pc:Item>2017-11-24</pc:Item>
+						<pc:Item>2017-11-23</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>date1_NotEmptyIntersection</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>date1</pc:FirstParameterName>
+					<pc:Clause>NotEmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>2017-11-25</pc:Item>
+						<pc:Item>2017-11-24</pc:Item>
+						<pc:Item>2017-11-23</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

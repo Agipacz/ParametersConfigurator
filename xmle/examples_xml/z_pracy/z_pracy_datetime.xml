@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd" additionalParameters="true">
+
+	<pc:ParametersConfiguratorTitle>Przykładowy tytuł aplikacji</pc:ParametersConfiguratorTitle>
+	<pc:ParametersConfiguratorIntroduction>
+Przykładowe wprowadzenie do konfiguratora parametrów.
+
+"Słowo schemat oznacza diagram, plan lub strukturę. W kontekście dokumentów XML słowo schemat odnosi się do dokumentu, który przedstawia opis dokumentu XML." Jednym z celów mojej pracy dyplomowej było opracowanie schematu XML dokumentów, który będzie później wykorzystany w~aplikacji do definiowania parametrów procesu odkrywania wiedzy. 
+
+W tym rozdziale został szczegółowo opisany stworzony schemat o nazwie ParametersConfigurator. W pierwszej kolejności opisałem użyte konwencje przestrzeni nazw. Zarówno ogólnego przeznaczenia jak i stworzone na potrzeby tego projektu. W następnej kolejności przedstawiłem ogólny zarys zaprojektowanego schematu dokumentów XML. Kolejna część opisuje schemat, z wyszczególnieniem wszystkich typów złożonych, które powstały na jego użytek. W ostatniej części tego rozdziału znajdują się przykłady użycia elementów powstałych typów wraz z szerokim komentarzem.
+</pc:ParametersConfiguratorIntroduction>
+	<pc:Sections>
+	<pc:Section>
+		<pc:Parameters>
+			<pc:DateParameter minNumberOfValues="0"
+				maxNumberOfValues="1" optional="false">
+				<pc:Name>urodzinyParametrDatowy</pc:Name>
+				<pc:Label>Data urodzenia</pc:Label>
+				<pc:Description>Prametr opisujący datę urodzenia.</pc:Description>
+				<pc:MinValue>1901-01-01</pc:MinValue>
+				<pc:MaxValue>2000-12-31</pc:MaxValue>
+			</pc:DateParameter>
+			<pc:DateTimeParameter minNumberOfValues="2"
+				maxNumberOfValues="5">
+				<pc:Name>terminarzParametrDataCzas</pc:Name>
+				<pc:Label>Pasujące terminy</pc:Label>
+				<pc:Description>Wybierz przynajmniej dwa pasujące termiy.</pc:Description>
+				<pc:MinValue>2017-12-01T00:00:00</pc:MinValue>
+				<pc:MaxValue>2017-12-31T23:59:59</pc:MaxValue>
+			</pc:DateTimeParameter>
+		</pc:Parameters>
+	</pc:Section>
+</pc:Sections>
+</pc:ParametersConfigurator>

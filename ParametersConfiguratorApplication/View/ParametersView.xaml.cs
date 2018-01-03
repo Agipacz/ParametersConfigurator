@@ -22,7 +22,7 @@ namespace ParametersConfiguratorApplication.View
     {
         public ParametersView()
         {
-            InitializeComponent();
+                InitializeComponent();
         }
     }
 }

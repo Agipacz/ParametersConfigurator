@@ -10,7 +10,6 @@
              d:DesignHeight="20" d:DesignWidth="400">
     <UserControl.Resources>
         <local:ParameterUsageToBrush x:Key="parameterToBrush"/>
-        <BitmapImage x:Key="questionMarkImage" UriSource="D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\View\Icons\Question_32xLG.png"/>
     </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -20,13 +19,14 @@
         <TextBlock Margin="2" TextWrapping="Wrap" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" FontSize="16" Foreground="{Binding Path=IsUsed, Mode=OneWay, Converter={StaticResource parameterToBrush}}">
              <Bold><Run Text="{Binding Path=Label, Mode=OneTime}" /></Bold>
         </TextBlock>
-        <Image Source="{StaticResource questionMarkImage}" Height="16" Grid.Column="1"  Grid.Row="0" Margin="2">
-            <Image.ToolTip>
+        <Label  Grid.Column="1"  Grid.Row="0" Margin="0" FontSize="13">
+            <Bold>?</Bold>
+            <Label.ToolTip>
                 <TextBlock TextWrapping="Wrap">
                      <Run Text="{Binding Description, Mode=OneTime}" />
                 </TextBlock>
-            </Image.ToolTip>
-        </Image>
-        
+            </Label.ToolTip>
+        </Label>
+
     </Grid>
 </UserControl>

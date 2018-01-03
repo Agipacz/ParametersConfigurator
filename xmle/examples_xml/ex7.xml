@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Two dates example</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateParameter>
+					<pc:Name>startDateNumber</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>2018-01-01</pc:MinValue>
+				</pc:DateParameter>
+				<pc:DateTimeParameter minNumberOfValues="2">
+					<pc:Name>endDateNumber</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>2017-01-01T00:00:00</pc:MinValue>
+					<pc:MaxValue>2017-12-31T00:00:00</pc:MaxValue>
+				</pc:DateTimeParameter>
+				<pc:DateParameter minNumberOfValues="3" maxNumberOfValues="5">
+					<pc:Name>startDateNumber2</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>2018-01-01</pc:MinValue>
+				</pc:DateParameter>
+				<pc:DateTimeParameter maxNumberOfValues="7">
+					<pc:Name>endDateNumber2</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+					<pc:MinValue>2017-01-01T00:00:00</pc:MinValue>
+					<pc:MaxValue>2017-12-31T00:00:00</pc:MaxValue>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateParameter>
+					<pc:Name>startDateNumber3</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateParameter>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber3</pc:Name>
+					<pc:Label>Parametr datowy</pc:Label>
+					<pc:Description>Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis. Długi opis.</pc:Description>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+	</pc:Sections>
+
+</pc:ParametersConfigurator>

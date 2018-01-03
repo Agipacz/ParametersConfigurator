@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+		<pc:ParametersConfiguratorTitle>Przykład4</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter maxNumberOfValues="5"
+					optional="false">
+					<pc:Name>int1</pc:Name>
+				</pc:IntegerParameter>
+				<pc:IntegerParameter optional="false">
+					<pc:Name>int2</pc:Name>
+				</pc:IntegerParameter>
+				<pc:IntegerParameter optional="false">
+
+					<pc:Name>int3</pc:Name>
+					<pc:Description>Opis parametru</pc:Description>
+				</pc:IntegerParameter>
+				<pc:IntegerParameter optional="false">
+					<pc:Name>int4</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+		</pc:Section>
+	</pc:Sections>
+	<pc:CorrectnessConditions logicalConnector="AND">
+		<pc:ConditionalSection logicalConnector="AND">
+			<pc:Condition>
+				<pc:FirstParameterName>int1</pc:FirstParameterName>
+				<pc:Clause>le</pc:Clause>
+				<pc:Value>100</pc:Value>
+			</pc:Condition>
+			<pc:Condition>
+				<pc:FirstParameterName>int2</pc:FirstParameterName>
+				<pc:Clause>gt</pc:Clause>
+				<pc:Value>110</pc:Value>
+			</pc:Condition>
+			<pc:ConditionalSection logicalConnector="OR">
+				<pc:Condition>
+					<pc:FirstParameterName>int3</pc:FirstParameterName>
+					<pc:Clause>gt</pc:Clause>
+					<pc:Value>120</pc:Value>
+				</pc:Condition>
+				<pc:Condition>
+					<pc:FirstParameterName>int4</pc:FirstParameterName>
+					<pc:Clause>gt</pc:Clause>
+					<pc:Value>130</pc:Value>
+				</pc:Condition>
+				<pc:Condition>
+					<pc:FirstParameterName>int1</pc:FirstParameterName>
+					<pc:Clause>le</pc:Clause>
+					<pc:SecondParameterName>int3</pc:SecondParameterName>
+				</pc:Condition>
+			</pc:ConditionalSection>
+		</pc:ConditionalSection>
+		<pc:ConditionalSection logicalConnector="OR">
+			<pc:Condition>
+				<pc:FirstParameterName>int3</pc:FirstParameterName>
+				<pc:Clause>ge</pc:Clause>
+				<pc:Value>0</pc:Value>
+			</pc:Condition>
+			<pc:Condition>
+				<pc:FirstParameterName>int4</pc:FirstParameterName>
+				<pc:Clause>lt</pc:Clause>
+				<pc:Value>150</pc:Value>
+			</pc:Condition>
+			<pc:Condition>
+				<pc:FirstParameterName>int1</pc:FirstParameterName>
+				<pc:Clause>ge</pc:Clause>
+				<pc:SecondParameterName>int3</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:Condition>
+			<pc:FirstParameterName>int2</pc:FirstParameterName>
+			<pc:Clause>gt</pc:Clause>
+			<pc:Value>105</pc:Value>
+		</pc:Condition>
+	</pc:CorrectnessConditions>
+</pc:ParametersConfigurator>

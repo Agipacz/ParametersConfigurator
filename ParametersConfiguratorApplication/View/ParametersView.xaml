@@ -15,7 +15,6 @@
         <local:BooleanToVisibility x:Key="boolToVisibility"/>
         <local:VisibilityOfDescription x:Key="visibilityOfDescription" />
         <local:BooleanToBackground x:Key="boolToBackground" />
-        <BitmapImage x:Key="questionMarkImage" UriSource="D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\View\Icons\Question_32xLG.png"/>
     </UserControl.Resources>
     <Grid Margin="2.5">
         <Grid.RowDefinitions>

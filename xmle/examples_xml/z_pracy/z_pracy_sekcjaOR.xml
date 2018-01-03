@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd"
+	additionalParameters="true">
+
+	<pc:ParametersConfiguratorTitle>Przykładowy tytuł aplikacji</pc:ParametersConfiguratorTitle>
+	<pc:ParametersConfiguratorIntroduction>
+Przykładowe wprowadzenie do konfiguratora parametrów.
+
+"Słowo schemat oznacza diagram, plan lub strukturę. W kontekście dokumentów XML słowo schemat odnosi się do dokumentu, który przedstawia opis dokumentu XML." Jednym z celów mojej pracy dyplomowej było opracowanie schematu XML dokumentów, który będzie później wykorzystany w~aplikacji do definiowania parametrów procesu odkrywania wiedzy. 
+
+W tym rozdziale został szczegółowo opisany stworzony schemat o nazwie ParametersConfigurator. W pierwszej kolejności opisałem użyte konwencje przestrzeni nazw. Zarówno ogólnego przeznaczenia jak i stworzone na potrzeby tego projektu. W następnej kolejności przedstawiłem ogólny zarys zaprojektowanego schematu dokumentów XML. Kolejna część opisuje schemat, z wyszczególnieniem wszystkich typów złożonych, które powstały na jego użytek. W ostatniej części tego rozdziału znajdują się przykłady użycia elementów powstałych typów wraz z szerokim komentarzem.
+</pc:ParametersConfiguratorIntroduction>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+
+				<pc:IntegerParameter>
+					<pc:Name>pierwszy</pc:Name>
+					<pc:Label>Duża liczba całkowita</pc:Label>
+				</pc:IntegerParameter>
+				<pc:IntegerParameter>
+					<pc:Name>drugi</pc:Name>
+					<pc:Label>Mała liczba całkowita</pc:Label>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+		</pc:Section>
+	</pc:Sections>
+	<pc:CorrectnessConditions logicalConnector="OR">
+		<pc:Condition>
+			<pc:FirstParameterName>pierwszy</pc:FirstParameterName>
+			<pc:Clause>GreaterThan</pc:Clause>
+			<pc:Value>100</pc:Value>
+		</pc:Condition>
+		<pc:Condition>
+			<pc:FirstParameterName>drugi</pc:FirstParameterName>
+			<pc:Clause>LessThan</pc:Clause>
+			<pc:Value>-100</pc:Value>
+		</pc:Condition>
+	</pc:CorrectnessConditions>
+</pc:ParametersConfigurator>

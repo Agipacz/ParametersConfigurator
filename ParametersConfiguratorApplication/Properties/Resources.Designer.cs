@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ParametersConfiguratorApplication.Properties
-{
-
-
+namespace ParametersConfiguratorApplication.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,49 +22,62 @@ namespace ParametersConfiguratorApplication.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    public class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        public static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ParametersConfiguratorApplication.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        public static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///&lt;xs:schema 
+        ///xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; 
+        ///xmlns:pc=&quot;http://www.czadzik.pl/parametersConfigurator&quot; 
+        ///targetNamespace=&quot;http://www.czadzik.pl/parametersConfigurator&quot; 
+        ///elementFormDefault=&quot;qualified&quot;&gt;
+        ///
+        ///&lt;xs:element name=&quot;ParametersConfigurator&quot; type=&quot;pc:ParametersConfiguratorType&quot;&gt;
+        ///&lt;/xs:element&gt;
+        ///
+        ///&lt;xs:complexType name=&quot;ParametersConfiguratorType&quot;&gt;
+        ///	&lt;xs:sequence&gt;
+        ///		&lt;xs:element name=&quot;ParametersConfiguratorTitle&quot;			type=&quot;xs:string&quot; minOccurs=&quot;1&quot; maxOccu [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string parametersConfigurator {
+            get {
+                return ResourceManager.GetString("parametersConfigurator", resourceCulture);
             }
         }
     }

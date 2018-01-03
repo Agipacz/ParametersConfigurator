@@ -1,0 +1,4 @@
+textParameter=[1; 2; 5; 3; 8]
+insideInt2=-1
+insideInt=[0; 24; -1]
+InsideIntFloatParameter=0

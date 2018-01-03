@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example Float 2</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:FloatParameter maxNumberOfValues="1">
+					<pc:Name>float1</pc:Name>
+				</pc:FloatParameter>
+				<pc:FloatParameter>
+					<pc:Name>float2</pc:Name>
+				</pc:FloatParameter>
+				<pc:IntegerParameter>
+					<pc:Name>int3</pc:Name>
+				</pc:IntegerParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>dateTime4</pc:Name>
+				</pc:DateTimeParameter>
+				<pc:TextParameter>
+					<pc:Name>text5</pc:Name>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float1_Equalto_parameter_float2</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float1</pc:FirstParameterName>
+					<pc:Clause>==</pc:Clause>
+					<pc:SecondParameterName>float2</pc:SecondParameterName>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float1_notEqualto_parameter_int3</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float1</pc:FirstParameterName>
+					<pc:Clause>!=</pc:Clause>
+					<pc:SecondParameterName>int3</pc:SecondParameterName>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float1_GreaterThan_parameter_dateTime4</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float1</pc:FirstParameterName>
+					<pc:Clause>GreaterThan</pc:Clause>
+					<pc:SecondParameterName>dateTime4</pc:SecondParameterName>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>float1_LessThan_parameter_text5</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>float1</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:SecondParameterName>text5</pc:SecondParameterName>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

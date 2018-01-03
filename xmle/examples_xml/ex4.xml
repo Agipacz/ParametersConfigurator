@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd" additionalParameters="true">
+
+	<pc:ParametersConfiguratorTitle>Fourth example</pc:ParametersConfiguratorTitle>
+	<pc:ParametersConfiguratorIntroduction>
+Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
+</pc:ParametersConfiguratorIntroduction>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter optional="true">
+					<pc:Name>intNumber</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+					<pc:Description>Liczba całkowita z przedziału od 0 do 10.</pc:Description>
+					<pc:MinValue>0</pc:MinValue>
+					<pc:MaxValue>11</pc:MaxValue>
+				</pc:IntegerParameter>
+				<pc:FloatParameter optional="true">
+					<pc:Name>flatParameter</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+				<pc:BooleanParameter optional="true">
+					<pc:Name>bool</pc:Name>
+				</pc:BooleanParameter>
+				<pc:EnumerationParameter optional="true"
+					maxNumberOfValues="3">
+					<pc:Name>enumParameter</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:EnumerationList>
+						<pc:Item>ABC</pc:Item>
+						<pc:Item>BCD</pc:Item>
+						<pc:Item>CDE</pc:Item>
+						<pc:Item>DEF</pc:Item>
+						<pc:Item>EFG</pc:Item>
+						<pc:Item>FGH</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+				<pc:BooleanParameter optional="true">
+					<pc:Name>boolParameter</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:TextParameter optional="true">
+					<pc:Name>textParameter</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:RegularExpression>A*</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:DateTimeParameter optional="true">
+					<pc:Name>startDateNumber</pc:Name>
+					<pc:Label>Parametr datowy start</pc:Label>
+				</pc:DateTimeParameter>
+				<pc:DateTimeParameter optional="true">
+					<pc:Name>endDateNumber</pc:Name>
+					<pc:Label>Parametr datowy end</pc:Label>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+		</pc:Section>
+	</pc:Sections>
+	<pc:CorrectnessConditions>
+		<pc:ConditionalSection logicalConnector="OR">
+			<pc:ConditionalSection logicalConnector="AND">
+				<pc:Condition>
+					<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+				</pc:Condition>
+				<pc:Condition>
+					<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+				</pc:Condition>
+			</pc:ConditionalSection>
+			<pc:Condition>
+				<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+				<pc:Clause>LessThan</pc:Clause>
+				<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:ConditionalSection logicalConnector="OR">
+			<pc:ConditionalSection logicalConnector="AND">
+				<pc:Condition>
+					<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+				</pc:Condition>
+			</pc:ConditionalSection>
+			<pc:Condition>
+				<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+				<pc:Clause>LessThan</pc:Clause>
+				<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:ConditionalSection logicalConnector="AND">
+			<pc:Condition>
+				<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+				<pc:Clause>LessThan</pc:Clause>
+				<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:Condition>
+			<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+			<pc:Clause>LessThan</pc:Clause>
+			<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+		</pc:Condition>
+
+	</pc:CorrectnessConditions>
+
+	<pc:ParametersConfiguratorSummary>
+Summary
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+</pc:ParametersConfiguratorSummary>
+</pc:ParametersConfigurator>

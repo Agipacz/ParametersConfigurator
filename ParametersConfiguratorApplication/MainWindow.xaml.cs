@@ -22,7 +22,17 @@ namespace ParametersConfiguratorApplication
     {
         public MainWindow()
         {
-            InitializeComponent();
+            try
+
+            {
+                InitializeComponent();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("D: MainWindows.xaml.cs");
+                Console.WriteLine(ex.ToString());
+            }
         }
+
     }
 }

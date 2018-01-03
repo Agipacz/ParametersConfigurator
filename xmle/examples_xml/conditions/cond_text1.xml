@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example Text 1</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter maxNumberOfValues="1">
+					<pc:Name>text1</pc:Name>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_Equalto_value_100</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>==</pc:Clause>
+					<pc:Value>100</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_notEqualto_value_50</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>!=</pc:Clause>
+					<pc:Value>50</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_GreaterThan_value_100</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>GreaterThan</pc:Clause>
+					<pc:Value>100</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_GreaterEqual_value_50</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>>=</pc:Clause>
+					<pc:Value>50</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_LessThan_value_50</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>LessThan</pc:Clause>
+					<pc:Value>50</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_LessEqual_value_12.5</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>LessOrEqual</pc:Clause>
+					<pc:Value>12.5</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>text1_IsIn_value_-35,5</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>text1</pc:FirstParameterName>
+					<pc:Clause>IsSubset</pc:Clause>
+					<pc:Value>-35,5</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

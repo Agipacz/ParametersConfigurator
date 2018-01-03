@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example 1</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true">
+					<pc:Name>enumParameter</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter optional="true" maxNumberOfValues="10">
+					<pc:Name>textParameter2</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					
+					<pc:RegularExpression>*</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>enumParameter</pc:FirstParameterName>
+					<pc:Clause>==</pc:Clause>
+					<pc:Value>A</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber</pc:Name>
+					<pc:Label>Parametr datowy1</pc:Label>
+				</pc:DateTimeParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber</pc:Name>
+					<pc:Label>Parametr datowy1</pc:Label>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>enumParameter</pc:FirstParameterName>
+				<pc:Clause>!=</pc:Clause>
+				<pc:Value>A</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:BooleanParameter>
+					<pc:Name>boolParameter</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+				<pc:IntegerParameter>
+					<pc:Name>intNumber</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+				</pc:IntegerParameter>
+				<pc:FloatParameter>
+					<pc:Name>floatNumber</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:DateTimeParameter>
+					<pc:Name>startDateNumber3</pc:Name>
+					<pc:Label>Parametr datowy3</pc:Label>
+				</pc:DateTimeParameter>
+				<pc:DateTimeParameter>
+					<pc:Name>endDateNumber3</pc:Name>
+					<pc:Label>Parametr datowy3</pc:Label>
+				</pc:DateTimeParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>enumParameter</pc:FirstParameterName>
+				<pc:Clause>==</pc:Clause>
+				<pc:Value>C</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

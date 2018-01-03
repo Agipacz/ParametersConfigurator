@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Text example</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter minNumberOfValues="3">
+					<pc:Name>textParameter1</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:RegularExpression>^[A-Z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter maxNumberOfValues="5">
+					<pc:RegularExpression>^[0-9]$</pc:RegularExpression>
+					<pc:Name>textParameter2</pc:Name>
+					<pc:Label>Parametr tekstowy2</pc:Label>
+					
+				</pc:TextParameter>
+				<pc:TextParameter>
+					<pc:Name>textParameter3</pc:Name>
+					<pc:Label>Parametr tekstowy3</pc:Label>
+					<pc:RegularExpression>^[a-zA-Z]{2}$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+				<pc:TextParameter>
+					
+					<pc:Label>Parametr tekstowy4</pc:Label>
+					<pc:RegularExpression>^[a-z]$</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter minNumberOfValues="3">
+					
+					<pc:Label>Warunkowy parametr tekstowy</pc:Label>
+					<pc:RegularExpression>^[A-Z]$</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>textParameter2</pc:FirstParameterName>
+				<pc:Clause>ABCADFF</pc:Clause>
+				<pc:Set>
+					<pc:Item>ABC</pc:Item>
+					<pc:Item>ABCD</pc:Item>
+					<pc:Item>Abecadło</pc:Item>
+				</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter minNumberOfValues="3">
+					<pc:Name>conditionalTextParameter2</pc:Name>
+					<pc:Label>Warunkowy parametr tekstowy2</pc:Label>
+					<pc:RegularExpression>^[A-Z]$</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>textParameter2</pc:FirstParameterName>
+				<pc:Clause>EmptyIntersection</pc:Clause>
+				<pc:Set>
+					<pc:Item>ABC</pc:Item>
+					<pc:Item>ABCD</pc:Item>
+					<pc:Item>Abecadło</pc:Item>
+				</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

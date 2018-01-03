@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example Int 3</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter maxNumberOfValues="3">
+					<pc:Name>int3</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>int3_IsSubset</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>int3</pc:FirstParameterName>
+					<pc:Clause>IsSubset</pc:Clause>
+					<pc:Set>
+						<pc:Item>10</pc:Item>
+						<pc:Item>11</pc:Item>
+						<pc:Item>9</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>int3_EmptyIntersection</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>int3</pc:FirstParameterName>
+					<pc:Clause>EmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>10</pc:Item>
+						<pc:Item>11</pc:Item>
+						<pc:Item>26</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>int3_NotEmptyIntersection</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>int3</pc:FirstParameterName>
+					<pc:Clause>NotEmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>10</pc:Item>
+						<pc:Item>11</pc:Item>
+						<pc:Item>33</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>

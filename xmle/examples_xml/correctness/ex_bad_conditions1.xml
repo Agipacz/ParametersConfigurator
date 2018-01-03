@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Bad conditions example 1</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter>
+					<pc:Name>nazwa1</pc:Name>
+					<pc:Label>Nazwa?</pc:Label>
+					<pc:EnumerationList>
+						<pc:Item>Nazwa1</pc:Item>
+						<pc:Item>Nazwa2</pc:Item>
+						<pc:Item>Nazwa3</pc:Item>
+						<pc:Item>Nazwa4</pc:Item>
+						<pc:Item>Nazwa5</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+	</pc:Sections>
+	<pc:CorrectnessConditions logicalConnector="OR">
+		<pc:Condition>
+			<pc:FirstParameterName>nazwa1</pc:FirstParameterName>
+			<pc:Clause>NotEmptyIntersection</pc:Clause>
+			<pc:Set>
+				<pc:Item>Nazwa4</pc:Item>
+				<pc:Item>Nazwa5</pc:Item>
+				<pc:Item>Nazwa3</pc:Item>
+			</pc:Set>
+		</pc:Condition>
+		<pc:Condition>
+			<pc:FirstParameterName>nazwa1</pc:FirstParameterName>
+			<pc:Clause>NotEmptyIntersection</pc:Clause>
+			<pc:Set>
+				<pc:Item>Nazwa1</pc:Item>
+				<pc:Item>Nazwa2</pc:Item>
+				<pc:Item>Nazwa3</pc:Item>
+			</pc:Set>
+		</pc:Condition>
+	</pc:CorrectnessConditions>
+
+</pc:ParametersConfigurator>

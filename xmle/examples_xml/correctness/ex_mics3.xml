@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Przykład3</pc:ParametersConfiguratorTitle>
+	<pc:ParametersConfiguratorIntroduction>
+Przykład nr 1
+To jest przykładowy plik xml zgodny z opracowanym schematem. Pokazuje wykorzystanie warunków:
+- poprawności
+</pc:ParametersConfiguratorIntroduction>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter>
+					<pc:Name>coWolisz</pc:Name>
+					<pc:Label>Co jest ciekawsze?</pc:Label>
+					<pc:EnumerationList>
+						<pc:Item>zwierzęta</pc:Item>
+						<pc:Item>zabawki</pc:Item>
+						<pc:Item>komputery</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+				<pc:IntegerParameter>
+					<pc:Name>int1</pc:Name>
+				</pc:IntegerParameter>
+				<pc:TextParameter maxNumberOfValues="3">
+					<pc:Name>text2</pc:Name>
+				</pc:TextParameter>
+				<pc:FloatParameter>
+					<pc:Name>float3</pc:Name>
+				</pc:FloatParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter>
+					<pc:Name>text4</pc:Name>
+				</pc:TextParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+				<pc:FirstParameterName>int1</pc:FirstParameterName>
+				<pc:Clause>le</pc:Clause>
+				<pc:SecondParameterName>float3</pc:SecondParameterName>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+	<pc:CorrectnessConditions>
+		<pc:ConditionalSection logicalConnector="AND">
+			<pc:Condition>
+				<pc:FirstParameterName>int1</pc:FirstParameterName>
+				<pc:Clause>>=</pc:Clause>
+				<pc:SecondParameterName>float3</pc:SecondParameterName>
+			</pc:Condition>
+			<pc:Condition>
+				<pc:FirstParameterName>int1</pc:FirstParameterName>
+				<pc:Clause>le</pc:Clause>
+				<pc:SecondParameterName>float3</pc:SecondParameterName>
+			</pc:Condition>
+		</pc:ConditionalSection>
+		<pc:Condition>
+			<pc:FirstParameterName>text2</pc:FirstParameterName>
+			<pc:Clause>IsSubset</pc:Clause>
+			<pc:Set>
+				<pc:Item>A</pc:Item>
+				<pc:Item>B</pc:Item>
+				<pc:Item>C</pc:Item>
+				<pc:Item>D</pc:Item>
+				<pc:Item>E</pc:Item>
+			</pc:Set>
+		</pc:Condition>
+	</pc:CorrectnessConditions>
+</pc:ParametersConfigurator>

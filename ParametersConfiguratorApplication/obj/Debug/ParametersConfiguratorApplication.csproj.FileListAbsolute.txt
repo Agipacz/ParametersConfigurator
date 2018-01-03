@@ -1,87 +1,6 @@
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.exe.config
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\MainWindow.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\App.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication_MarkupCompile.cache
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication_MarkupCompile.lref
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\MainView.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.exe
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.pdb
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\MainWindow.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\MainView.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.g.resources
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.Properties.Resources.resources
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.csproj.GenerateResource.Cache
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.exe
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.pdb
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\IntroductionView.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\SummaryView.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\IntroductionView.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\SummaryView.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\System.Windows.Interactivity.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\de\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\en\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\es\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\fr\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\it\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ja\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ko\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ru\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Xceed.Wpf.AvalonDock.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Xceed.Wpf.DataGrid.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Xceed.Wpf.Toolkit.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\BooleanParameterUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\DateTimeParameterUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\EnumerationParameterUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\FloatParameterUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\IntegerParameterUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\TextParameterUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\BooleanParameterUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\DateTimeParameterUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\EnumerationParameterUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\FloatParameterUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\IntegerParameterUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\TextParameterUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\Microsoft.Expression.Interactions.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterHeaderUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterValuesButtonsUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterHeaderUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterValuesButtonsUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterErrorStackUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterErrorStackUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterControlPanelUI.g.cs
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterControlPanelUI.baml
-D:\Users\Agipacz\Dysk Google\Inżynierka\kod\ParametersConfiguratorApplication\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.csprojResolveAssemblyReference.cache
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.exe.config
-C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.exe
-C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.pdb
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.exe.manifest
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.application
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.exe
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\ParametersConfiguratorApplication.pdb
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\Microsoft.Expression.Interactions.dll
@@ -122,7 +41,6 @@ C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorAppli
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.csprojResolveAssemblyReference.cache
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\MainWindow.g.cs
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterControlPanelUI.g.cs
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\View\ParametersView\ParameterErrorStackUI.g.cs
@@ -160,3 +78,8 @@ C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorAppli
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.g.resources
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.Properties.Resources.resources
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.csproj.GenerateResource.Cache
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.exe.manifest
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.application
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.exe
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.pdb
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Debug\ParametersConfiguratorApplication.csprojResolveAssemblyReference.cache

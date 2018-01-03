@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc:ParametersConfigurator xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd" additionalParameters="true">
+   <pc:ParametersConfiguratorTitle>Integer example</pc:ParametersConfiguratorTitle>
+   <pc:ParametersConfiguratorIntroduction>Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit...</pc:ParametersConfiguratorIntroduction>
+   <pc:Sections>
+      <pc:Section>
+         <pc:Parameters>
+            <pc:IntegerParameter optional="true" minNumberOfValues="0" maxNumberOfValues="5">
+               <pc:Name>intNumber</pc:Name>
+               <pc:Label>Liczba całkowita</pc:Label>
+               <pc:Description>Liczba całkowita z przedziału od 0 do 10.</pc:Description>
+               <pc:MinValue>10</pc:MinValue>
+               <pc:MaxValue>5</pc:MaxValue>
+            </pc:IntegerParameter>
+            <pc:IntegerParameter>
+            	<pc:Name>ab1</pc:Name>
+            </pc:IntegerParameter>
+            <pc:IntegerParameter optional="true">
+            	<pc:Name>ab2</pc:Name>
+            </pc:IntegerParameter>
+            <pc:IntegerParameter>
+            	<pc:Name>ab3</pc:Name>
+            </pc:IntegerParameter>
+         </pc:Parameters>
+      </pc:Section>
+   </pc:Sections>
+
+   <pc:ParametersConfiguratorSummary>Summary Lorem ipsum dolor sit amet, consectetur adipiscing elit...</pc:ParametersConfiguratorSummary>
+</pc:ParametersConfigurator>

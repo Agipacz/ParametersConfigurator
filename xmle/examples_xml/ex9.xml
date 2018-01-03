@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator 
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd" >
+
+	<pc:ParametersConfiguratorTitle>Third example</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter optional="true" minNumberOfValues="2" maxNumberOfValues="2">
+					<pc:Name>enumParameter</pc:Name>
+					<pc:Label>Parametr wyliczeniowy</pc:Label>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter maxNumberOfValues="5">
+					<pc:Name>   Calkowity1  </pc:Name>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:IntegerParameter>
+				<pc:TextParameter optional="true" maxNumberOfValues="10">
+					<pc:Name>textParameter2</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					
+					<pc:SignsOfSet>
+						<pc:BeginningSign>{</pc:BeginningSign>
+						<pc:SeparatingSign>	</pc:SeparatingSign>
+						<pc:EndingSign>}</pc:EndingSign>
+					</pc:SignsOfSet>
+					<pc:RegularExpression>^[A-Z]+[a-zA-Z0-9]{1,5}</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>enumParameter</pc:FirstParameterName>
+					<pc:Clause>==</pc:Clause>
+					<pc:Value>A</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		</pc:Sections>
+	<pc:CorrectnessConditions>
+		<pc:Condition>
+			<pc:FirstParameterName>intNumber</pc:FirstParameterName>
+			<pc:Clause>IsSubset</pc:Clause>
+			<pc:Set>
+				<pc:Item>10</pc:Item>
+				<pc:Item>12</pc:Item>
+				<pc:Item>14</pc:Item>
+			</pc:Set>
+		</pc:Condition>
+		<pc:Condition>
+			<pc:FirstParameterName>startDateNumber</pc:FirstParameterName>
+			<pc:Clause>LessThan</pc:Clause>
+			<pc:SecondParameterName>endDateNumber</pc:SecondParameterName>
+		</pc:Condition>
+		<pc:Condition>
+			<pc:FirstParameterName>floatNumber</pc:FirstParameterName>
+			<pc:Clause>GreaterThan</pc:Clause>
+			<pc:SecondParameterName>intNumber</pc:SecondParameterName>
+		</pc:Condition>
+		<pc:Condition>
+			<pc:FirstParameterName>floatNumber</pc:FirstParameterName>
+			<pc:Clause>IsSubset</pc:Clause>
+			<pc:SecondParameterName>intNumber</pc:SecondParameterName>
+		</pc:Condition>
+	</pc:CorrectnessConditions>
+	<pc:GlobalSignsOfSet>
+		<pc:BeginningSign>(</pc:BeginningSign>
+		<pc:SeparatingSign>,</pc:SeparatingSign>
+		<pc:EndingSign>)</pc:EndingSign>
+	</pc:GlobalSignsOfSet>
+	<pc:ParametersConfiguratorSummary>
+Summary
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+</pc:ParametersConfiguratorSummary>
+</pc:ParametersConfigurator>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Fifth example</pc:ParametersConfiguratorTitle>
+	<pc:ParametersConfiguratorIntroduction>
+Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
+</pc:ParametersConfiguratorIntroduction>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:TextParameter maxNumberOfValues="3">
+					<pc:Name>textParameter</pc:Name>
+					<pc:Label>Parametr tekstowy</pc:Label>
+					<pc:Sections>
+						<pc:Section>
+							<pc:Parameters>
+								<pc:IntegerParameter maxNumberOfValues="3">
+									<pc:Name>insideInt</pc:Name>
+									<pc:Sections>
+										<pc:Section>
+											<pc:Parameters>
+												<pc:FloatParameter maxNumberOfValues="3">
+													<pc:Name>InsideIntFloatParameter</pc:Name>
+												</pc:FloatParameter>
+											</pc:Parameters>
+										</pc:Section>
+									</pc:Sections>
+								</pc:IntegerParameter>
+								<pc:IntegerParameter maxNumberOfValues="3">
+									<pc:Name>insideInt2</pc:Name>
+								</pc:IntegerParameter>
+							</pc:Parameters>
+						</pc:Section>
+					</pc:Sections>
+					<pc:RegularExpression>*</pc:RegularExpression>
+				</pc:TextParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter maxNumberOfValues="3">
+					<pc:Name>intNumber</pc:Name>
+					<pc:Label>Liczba całkowita</pc:Label>
+					<pc:Description>Liczba całkowita z przedziału od 0 do 10.</pc:Description>
+					<pc:MinValue>0</pc:MinValue>
+					<pc:MaxValue>11</pc:MaxValue>
+				</pc:IntegerParameter>
+				<pc:FloatParameter maxNumberOfValues="3">
+					<pc:Name>flatParameter</pc:Name>
+					<pc:Label>Liczba zmiennoprzecinkowa</pc:Label>
+					<pc:MinValue>0.5</pc:MinValue>
+					<pc:MaxValue>10</pc:MaxValue>
+				</pc:FloatParameter>
+				<pc:BooleanParameter maxNumberOfValues="3">
+					<pc:Name>boolParameter</pc:Name>
+					<pc:Label>Parametr True/False</pc:Label>
+					<pc:Description>To jest szczegółowy opis pola typu TAK/NIE</pc:Description>
+				</pc:BooleanParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>insideInt</pc:FirstParameterName>
+					<pc:Clause>EqualTo</pc:Clause>
+					<pc:Value>10</pc:Value>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+
+
+	<pc:ParametersConfiguratorSummary>
+Summary
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+</pc:ParametersConfiguratorSummary>
+</pc:ParametersConfigurator>

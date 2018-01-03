@@ -1,0 +1,4 @@
+date1=09.12.2017
+date1_notEqualto_value_2017-11-19=0
+date1_GreaterThan_value_2017/11/19=0
+date1_GreaterEqual_value_2017/11/19=0

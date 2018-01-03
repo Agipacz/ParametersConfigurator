@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pc:ParametersConfigurator
+	xmlns:pc="http://www.czadzik.pl/parametersConfigurator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.czadzik.pl/parametersConfigurator ../../parametersConfigurator.xsd">
+
+	<pc:ParametersConfiguratorTitle>Condition Example Enumeration 3</pc:ParametersConfiguratorTitle>
+	<pc:Sections>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:EnumerationParameter maxNumberOfValues="3">
+					<pc:Name>enum1</pc:Name>
+					<pc:EnumerationList>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+						<pc:Item>D</pc:Item>
+						<pc:Item>E</pc:Item>
+						<pc:Item>F</pc:Item>
+					</pc:EnumerationList>
+				</pc:EnumerationParameter>
+			</pc:Parameters>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>enum1_IsSubset_setABCD</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>enum1</pc:FirstParameterName>
+					<pc:Clause>IsSubset</pc:Clause>
+					<pc:Set>
+						<pc:Item>A</pc:Item>
+						<pc:Item>B</pc:Item>
+						<pc:Item>C</pc:Item>
+						<pc:Item>D</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>enum1_EmptyIntersection_setCDEF</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>enum1</pc:FirstParameterName>
+					<pc:Clause>EmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>E</pc:Item>
+						<pc:Item>F</pc:Item>
+						<pc:Item>C</pc:Item>
+						<pc:Item>D</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+		<pc:Section>
+			<pc:Parameters>
+				<pc:IntegerParameter>
+					<pc:Name>enum1_NotEmptyIntersection_setACE</pc:Name>
+				</pc:IntegerParameter>
+			</pc:Parameters>
+			<pc:VisibilityCondition>
+					<pc:FirstParameterName>enum1</pc:FirstParameterName>
+					<pc:Clause>NotEmptyIntersection</pc:Clause>
+					<pc:Set>
+						<pc:Item>A</pc:Item>
+						<pc:Item>C</pc:Item>
+						<pc:Item>E</pc:Item>
+					</pc:Set>
+			</pc:VisibilityCondition>
+		</pc:Section>
+	</pc:Sections>
+</pc:ParametersConfigurator>
