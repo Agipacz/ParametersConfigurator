@@ -113,10 +113,6 @@ namespace ParametersConfiguratorApplication.Model
                 else
                     return _name;
             }
-            //set
-            //{
-            //    _label = value;
-            //}
         }
         public string Description
         {
@@ -261,7 +257,7 @@ namespace ParametersConfiguratorApplication.Model
                 if (_currentHeight != value)
                 {
                     _currentHeight = value;
-                    Console.WriteLine("Current Height '"+ Label+ "':" + _currentHeight);
+                    //Console.WriteLine("Current Height '"+ Label+ "':" + _currentHeight);
                 }
             }
         }
