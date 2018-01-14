@@ -73,8 +73,8 @@ namespace ParametersConfiguratorApplication.Model
         public override double ComputeHeight()
         {
             if (_parameterValues.Count <= 1)
-                return 65;
-            return (_parameterValues.Count * 18.0) + 47.0;
+                return 70;
+            return (_parameterValues.Count * 18.0) + 50.0;
         }
         public override void AddParameterValue()
         {

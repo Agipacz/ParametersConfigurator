@@ -82,3 +82,4 @@ C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorAppli
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Release\ParametersConfiguratorApplication.application
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Release\ParametersConfiguratorApplication.exe
 C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Release\ParametersConfiguratorApplication.pdb
+C:\Users\Agipacz\Source\Repos\ParametersConfigurator\ParametersConfiguratorApplication\obj\Release\ParametersConfiguratorApplication.csprojResolveAssemblyReference.cache

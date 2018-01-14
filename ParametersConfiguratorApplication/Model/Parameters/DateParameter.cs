@@ -117,8 +117,8 @@ namespace ParametersConfiguratorApplication.Model
         public override double ComputeHeight()
         {
             if (_parameterValues.Count <= 1)
-                return 95;
-            return (_parameterValues.Count * 22.0) + 50.0;
+                return 100;
+            return (_parameterValues.Count * 22.0) + 56.0;
         }
         public override string ToFileSaveTxt(ViewModel.SavingType savingType)
         {
